@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: d5dfa4f619ca9a64d9fbf123d074b789
+timeCreated: 1521032921
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: AsianBuilding1_MSH
+    100002: AsianBuilding1Cap_MSH
+    100004: AsianBuilding1Cap_MSH1
+    100006: AsianBuilding1Cap_MSH2
+    100008: AsianBuilding1Corner_MSH
+    100010: AsianBuilding1StairCap_MSH
+    100012: AsianBuilding1StairCap_MSH1
+    100014: AsianBuilding1Stairs_MSH
+    100016: AsianBuilding1Stairs_MSH1
+    100018: AsianBuilding1Straight_MSH
+    100020: AsianBuilding1Straight_MSH1
+    100022: AsianBuilding1Straight_MSH2
+    100024: AsianBuilding1StraightNoPoles_MSH
+    100026: AsianBuilding1StraightNoPoles_MSH1
+    100028: AsianBuilding1T_MSH
+    100030: AsianBuilding1Top_MSH
+    100032: AsianBuilding1Top_MSH1
+    100034: //RootNode
+    100036: AsianBuilding1Straight_MSH3
+    100038: AsianBuilding1Straight_MSH4
+    100040: AsianBuilding1Straight_MSH5
+    400000: AsianBuilding1_MSH
+    400002: AsianBuilding1Cap_MSH
+    400004: AsianBuilding1Cap_MSH1
+    400006: AsianBuilding1Cap_MSH2
+    400008: AsianBuilding1Corner_MSH
+    400010: AsianBuilding1StairCap_MSH
+    400012: AsianBuilding1StairCap_MSH1
+    400014: AsianBuilding1Stairs_MSH
+    400016: AsianBuilding1Stairs_MSH1
+    400018: AsianBuilding1Straight_MSH
+    400020: AsianBuilding1Straight_MSH1
+    400022: AsianBuilding1Straight_MSH2
+    400024: AsianBuilding1StraightNoPoles_MSH
+    400026: AsianBuilding1StraightNoPoles_MSH1
+    400028: AsianBuilding1T_MSH
+    400030: AsianBuilding1Top_MSH
+    400032: AsianBuilding1Top_MSH1
+    400034: //RootNode
+    400036: AsianBuilding1Straight_MSH3
+    400038: AsianBuilding1Straight_MSH4
+    400040: AsianBuilding1Straight_MSH5
+    2300000: AsianBuilding1_MSH
+    2300002: AsianBuilding1Cap_MSH
+    2300004: AsianBuilding1Cap_MSH1
+    2300006: AsianBuilding1Cap_MSH2
+    2300008: AsianBuilding1Corner_MSH
+    2300010: AsianBuilding1StairCap_MSH
+    2300012: AsianBuilding1StairCap_MSH1
+    2300014: AsianBuilding1Stairs_MSH
+    2300016: AsianBuilding1Stairs_MSH1
+    2300018: AsianBuilding1Straight_MSH
+    2300020: AsianBuilding1Straight_MSH1
+    2300022: AsianBuilding1Straight_MSH2
+    2300024: AsianBuilding1StraightNoPoles_MSH
+    2300026: AsianBuilding1StraightNoPoles_MSH1
+    2300028: AsianBuilding1T_MSH
+    2300030: AsianBuilding1Top_MSH
+    2300032: AsianBuilding1Top_MSH1
+    2300034: AsianBuilding1Straight_MSH3
+    2300036: AsianBuilding1Straight_MSH4
+    2300038: AsianBuilding1Straight_MSH5
+    3300000: AsianBuilding1_MSH
+    3300002: AsianBuilding1Cap_MSH
+    3300004: AsianBuilding1Cap_MSH1
+    3300006: AsianBuilding1Cap_MSH2
+    3300008: AsianBuilding1Corner_MSH
+    3300010: AsianBuilding1StairCap_MSH
+    3300012: AsianBuilding1StairCap_MSH1
+    3300014: AsianBuilding1Stairs_MSH
+    3300016: AsianBuilding1Stairs_MSH1
+    3300018: AsianBuilding1Straight_MSH
+    3300020: AsianBuilding1Straight_MSH1
+    3300022: AsianBuilding1Straight_MSH2
+    3300024: AsianBuilding1StraightNoPoles_MSH
+    3300026: AsianBuilding1StraightNoPoles_MSH1
+    3300028: AsianBuilding1T_MSH
+    3300030: AsianBuilding1Top_MSH
+    3300032: AsianBuilding1Top_MSH1
+    3300034: AsianBuilding1Straight_MSH3
+    3300036: AsianBuilding1Straight_MSH4
+    3300038: AsianBuilding1Straight_MSH5
+    4300000: AsianBuilding1_MSH
+    4300002: AsianBuilding1Stairs_MSH
+    4300004: AsianBuilding1StairCap_MSH
+    4300006: AsianBuilding1Straight_MSH
+    4300008: AsianBuilding1Cap_MSH
+    4300010: AsianBuilding1T_MSH
+    4300012: AsianBuilding1Top_MSH
+    4300014: AsianBuilding1StraightNoPoles_MSH
+    4300016: AsianBuilding1StraightNoPoles_MSH1
+    4300018: AsianBuilding1Cap_MSH1
+    4300020: AsianBuilding1Cap_MSH2
+    4300022: AsianBuilding1Straight_MSH1
+    4300024: AsianBuilding1Straight_MSH2
+    4300026: AsianBuilding1Corner_MSH
+    4300028: AsianBuilding1StairCap_MSH1
+    4300030: AsianBuilding1Stairs_MSH1
+    4300032: AsianBuilding1Top_MSH1
+    4300034: AsianBuilding1Straight_MSH3
+    4300036: AsianBuilding1Straight_MSH4
+    4300038: AsianBuilding1Straight_MSH5
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrownWoodSub
+    second: {fileID: 2100000, guid: a5cc1b02009103f4690bae31c6c0c242, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlanksSub
+    second: {fileID: 2100000, guid: ca58f41e0f4836642a5da8902ecea6ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofSub
+    second: {fileID: 2100000, guid: 4d94c67556277d14495df4977d082a35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhiteWoodSub
+    second: {fileID: 2100000, guid: 388066fb59e31ec4fb53f3450b5c5ff0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stoneSub
+    second: {fileID: 2100000, guid: 7b5394d66a2ff5a4fa8f4a9543357f16, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
