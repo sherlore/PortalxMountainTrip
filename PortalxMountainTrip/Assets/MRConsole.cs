@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Vuforia;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,7 +8,7 @@ public class MRConsole : MonoBehaviour {
 	public bool useSetting;
 
 	// Use this for initialization
-	void Start () 
+	/*void Start () 
 	{
 		if(useSetting)
 		{
@@ -51,7 +50,7 @@ public class MRConsole : MonoBehaviour {
             MixedRealityController.Instance.SetMode(MixedRealityController.Mode.VIEWER_VR);
             SceneManager.LoadScene("mainMR");
         }
-    }
+    }*/
 	
 	public void LoadScene(string sce)
 	{

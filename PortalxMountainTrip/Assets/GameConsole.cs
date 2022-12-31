@@ -9,7 +9,7 @@ public class GameConsole : MonoBehaviour {
     public bool imageFound;
     public static GameObject console;
 
-    public bool inTrip;
+    // public bool inTrip;
     public GameObject startTripButton;
     public GameObject arObject;
     public Transform arRoot;
@@ -28,14 +28,14 @@ public class GameConsole : MonoBehaviour {
     public Vector3[] stageOffset;
 	public Transform environmentCenter;
 
-    public GameObject arHint;
+    // public GameObject arHint;
 
 	// Use this for initialization
 	void Start () 
 	{
-        arObject.SetActive(false);
-        SetPlaneFound(false);
-        SetImageFound(false);
+        // arObject.SetActive(false);
+        // SetPlaneFound(false);
+        // SetImageFound(false);
         GameConsole.console = gameObject;
 		
 		foreach(GameObject gate in stageGate)
@@ -52,20 +52,7 @@ public class GameConsole : MonoBehaviour {
         }*/
 	}
 
-    public void SetPlaneFound(bool val)
-    {
-        planeFound = val;
-        CheckReady();
-        //PrintLog();
-
-    }
-
-    public void SetImageFound(bool val)
-    {
-        imageFound = val;
-        CheckReady();
-        PrintLog();
-    }
+   
 
     public void PrintLog()
     {
@@ -73,27 +60,13 @@ public class GameConsole : MonoBehaviour {
                   + "\nImage Found: " + imageFound);
     }
 
-    public void CheckReady()
-    {
-        if (!inTrip)
-        {
-            if (planeFound && imageFound)
-            {
-                startTripButton.SetActive(true);
-            }
-            else
-            {
-                startTripButton.SetActive(false);
-            }
-        }
-
-    }
+    
 
     public void StartTrip()
     {
-        arRoot.position = refRoot.position;
-        arRoot.rotation = refRoot.rotation;
-        inTrip = true;
+        // arRoot.position = refRoot.position;
+        // arRoot.rotation = refRoot.rotation;
+        // inTrip = true;
     }
 	
 	public void ChooseStage(int val)
@@ -113,12 +86,13 @@ public class GameConsole : MonoBehaviour {
 		GameConsole.gateIndex = val;
 		nowGate.SetActive(true);
 
-        arHint.SetActive(false);
+        // arHint.SetActive(false);
 	}
 
     public void StopTrip()
     {
-        inTrip = false;
+        // inTrip = false;
         arObject.SetActive(false);
+		environmentCenter.position = Vector3.up * 200f;
     }
 }

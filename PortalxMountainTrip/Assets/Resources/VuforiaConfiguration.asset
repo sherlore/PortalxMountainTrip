@@ -13,58 +13,40 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AXOe6DT/////AAABGfWVKTOi/EoMghERBzPzMT1RBm/2AWLk0ZGrT6HnpS4PBGm7r1F9pJrDM4aODTB4CJ2YKw29/PbYW9onQS6mNCWQvlb29IfcoMH53phvO5BOTznxFUx5LWgpOdO6Qmwhab4D7idVVlkJ/kYN0+MLds+MLAffG05zj6zjZRu+C7PYE/bFRNHTgMbrIR+zJzhOASpGbwtXjHutz/5t2oSeHXjGtYmdZEZ+Eu0Hd7UaftrP6TkQOz3C2NTjoFI1kY1wfrnj3dbVZ5lyI5LXcNbBYIN7yb5PT0HGYZdbGu7sQ0Lxvz2Y3Aud8/s5NDMHPtRlPfjqkhTgY2WWCgbKFx3vhWH0BMRznBBemwfk/Z7P8xpL
-    ufoLicenseKey: QWJhUjNKdi8vLy8vQUFBQUtFZU0xK3M3SDA1bHR2MDBJcGZmcDF4cmo3MG9IMG5iUTNheWpHZisyYkxsRHcvRnp2VG1tUVM1MytuOVlZS1RUc2dXeHhhYUVDOWJ6MmYwOHVnOHkzUlMrYVQ5OFAyakN2dUZ4dlJFZEpKSXd6MlY3N0M0Y0JWbTUzVVppMFdOQVBXLy92OXVMbjBMb3d4ODBxcXNxMGlqL2JGb3FmQ2Q1Vnd6VCtQTm9SbmVmSzQxSDRBZE9jRVkyckZCMXVPbTJ2UzVkSWtmK3doMFZZdFBpMWRGNU1TSytxNHIyMFFXWExONkNXTHpyNHlZeXA2dDNBL2hORjZEaUlmbGVHQm90MFlwajYvT2dkREJnVUljUW9aQ0FVMCtoZUp0TTh0SGhHRmNhcU52bnRyenF5dFNlbjVWK2tkUVQxSVF0czdYU0MycW5LTFV6NnhMSzNLNFJQK01oUEVvRVJaM2I0V2ZVMWdyV0k4VU8rQTU=
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QWVkSi84ai8vLy8vQUFBQUtFNTlNckxFOUVBdXYxUW1WWjA2bU8rYlRiSkxNdlg5Y0VSM1NUZTdqTHVkQlhOK3luSGh3cFJZM05YQmpZSlpFOGp6WFdzUk82eTFHT005SGtYYVFRWDMyU0I4NVpDSTJkc1F3ZVBZZkZyOVgwT1MvMmxKNktjR1luNjFxeThiRFJJR2lrZndxTnlvTG1ldE5IeS9lMHJFMGRXSW1xR1lHNEdtZW92bjJ0UU5pTHRQMVp2NEdmS0JEb2tVUjVrSEJHN1hsU3FVcEFEd1pIb2tMZXVDMEtTUHpNTHRMYXM0YTBLTWtnMXM0Y3lwYldRRGsyRS9PT09pNGI4aGRsKys3UmowQUVXU0x4Q2JxK0VmT2VxOVpjY3Bsci9USXoxT3hZY0tDdFlUOVpFQ2pBd0RuWk93dEpYN0gvUGpic2lDUTBzekkvZGNNY3BCS3NTbTNac3lCS2M5aUp2V2lWWGNsWUJLWURycEQvL1o=
     delayedInitialization: 0
+    cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 0
-    useDelayedLoadingObjectTargets: 0
-    cameraDirection: 0
-    mirrorVideoBackground: 0
-    version: 7.2.23
-    eulaAcceptedVersions: '{"Values":["7.1","7.2","7.5","8.0"]}'
-  digitalEyewear:
-    cameraOffset: 0.06
-    distortionRenderingLayer: 31
-    eyewearType: 2
-    stereoFramework: 0
-    seeThroughConfiguration: 0
-    viewerName: Generic Cardboard
-    viewerManufacturer: Vuforia
-    useCustomViewer: 0
-    customViewer:
-      Version: 0
-      Name: iPhoneX
-      Manufacturer: MIR
-      ButtonType: 3
-      ScreenToLensDistance: 0.042
-      InterLensDistance: 0.06
-      TrayAlignment: 0
-      LensCenterToTrayDistance: 0.035
-      DistortionCoefficients: {x: 0.441, y: 0.156}
-      FieldOfView: {x: 60, y: 60, z: 60, w: 60}
-      ContainsMagnet: 1
+    virtualSceneScaleFactor: 1
+    modelTargetRecoWhileExtendedTracked: 1
+    shareRecordingsInITunes: 0
+    logLevel: 0
+    version: 10.0.2
+    eulaAcceptedVersions: '{"Values":["","0.0","10.11"]}'
+  database:
+    disableModelExtraction: 0
+  shaders:
+    depthMaskShader: {fileID: 4800000, guid: 1ce7eb78425fb1540838bc9d5d95857a, type: 3}
+    outlineShader: {fileID: 4800000, guid: c1ded68d068051d4f92650fcddaae5c7, type: 3}
+    unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000,
+      type: 0}
   videoBackground:
-    clippingMode: 0
     numDivisions: 2
-    videoBackgroundShader: {fileID: 4800000, guid: fedbe381c3de74b4fb2751b3ff53a494,
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
       type: 3}
-    matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
+    unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 0
-    autoStartTracker: 0
-    trackingMode: 0
-    posePrediction: 0
-    modelCorrectionMode: 0
-    modelTransformEnabled: 0
-    modelTransform: {x: 0, y: 0.1, z: -0.1}
-  smartTerrain:
-    autoInitTracker: 0
-    autoStartTracker: 0
+    autoStartTracker: 1
+    arcoreRequirement: 1
+    autoImportArcore: 1
+    thirdPartyARCoreClientDetected: 0
+  playmode:
+    mSequencePath: 
+    playModeType: 0
   webcam:
-    deviceNameSetInEditor: 
-    flipHorizontally: 0
-    turnOffWebCam: 0
     renderTextureLayer: 30
+  packageInformation:
+    ARFoundationVersion: 

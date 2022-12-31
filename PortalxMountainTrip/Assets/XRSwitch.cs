@@ -15,7 +15,7 @@ public class XRSwitch : MonoBehaviour {
 		
 	}
 
-    public void SetARMode(bool val)
+    /*public void SetARMode(bool val)
     {
         if (val)
             Vuforia.MixedRealityController.Instance.SetMode(Vuforia.MixedRealityController.Mode.HANDHELD_AR);
@@ -23,5 +23,5 @@ public class XRSwitch : MonoBehaviour {
             Vuforia.MixedRealityController.Instance.SetMode(Vuforia.MixedRealityController.Mode.VIEWER_AR);
 
                
-    }
+    }*/
 }
