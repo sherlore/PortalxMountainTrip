@@ -1,23 +1,30 @@
+Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6 (Build 21G115)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'zh' Physical Memory: 16004 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker10
 -projectPath
-C:/Github/PortalxMountainTrip/PortalxMountainTrip
+/Users/nctutwt/Documents/GitHub/PortalxMountainTrip/PortalxMountainTrip
 -logFile
 Logs/AssetImportWorker10.log
 -srvPort
-57054
-Successfully changed project path to: C:/Github/PortalxMountainTrip/PortalxMountainTrip
-C:/Github/PortalxMountainTrip/PortalxMountainTrip
+50266
+Successfully changed project path to: /Users/nctutwt/Documents/GitHub/PortalxMountainTrip/PortalxMountainTrip
+/Users/nctutwt/Documents/GitHub/PortalxMountainTrip/PortalxMountainTrip
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,661 +54,165 @@ C:/Github/PortalxMountainTrip/PortalxMountainTrip
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 91.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 639.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Github/PortalxMountainTrip/PortalxMountainTrip/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/nctutwt/Documents/GitHub/PortalxMountainTrip/PortalxMountainTrip/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
-    Vendor:   NVIDIA
-    VRAM:     6023 MB
-    Driver:   31.0.15.1740
+Color LCD preferred device: Intel(R) Iris(TM) Graphics 540 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Graphics 540 (low power)
+Using device Intel(R) Iris(TM) Graphics 540 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 540
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56918
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.003992 seconds.
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 81.52 ms, found 3 plugins.
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.003747 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1706.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.577 seconds
+- Completed reload, in  7.302 seconds
 Domain Reload Profiling:
-	ReloadAssembly (577ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (7303ms)
+		BeginReloadAssembly (855ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (408ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (5338ms)
+			LoadAssemblies (855ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (1425ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (250ms)
+			RebuildScriptCaches (439ms)
+			SetupLoadedEditorAssemblies (3025ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (66ms)
+				InitializePlatformSupportModulesInManaged (535ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (68ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (1706ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (663ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004244 seconds.
-Android Extension - Scanning For ADB Devices 676 ms
+Registered in 0.015846 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Github\PortalxMountainTrip\PortalxMountainTrip\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Github\PortalxMountainTrip\PortalxMountainTrip\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 81.58 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image /Users/nctutwt/Documents/GitHub/PortalxMountainTrip/PortalxMountainTrip/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nctutwt/Documents/GitHub/PortalxMountainTrip/PortalxMountainTrip/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 240.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  0.939 seconds
+- Completed reload, in  3.071 seconds
 Domain Reload Profiling:
-	ReloadAssembly (939ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (3073ms)
+		BeginReloadAssembly (219ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (781ms)
-			LoadAssemblies (62ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2640ms)
+			LoadAssemblies (204ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (181ms)
+			SetupTypeCache (737ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (452ms)
+			RebuildScriptCaches (144ms)
+			SetupLoadedEditorAssemblies (1416ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (88ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (241ms)
+				BeforeProcessingInitializeOnLoad (226ms)
+				ProcessInitializeOnLoadAttributes (587ms)
+				ProcessInitializeOnLoadMethodAttributes (303ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.15 seconds
+Refreshing native plugins compatible for Editor in 2.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4514 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (61.7 KB). Loaded Objects now: 4970.
-Memory consumption went from 174.8 MB to 174.7 MB.
-Total: 5.199600 ms (FindLiveObjects: 0.251700 ms CreateObjectMapping: 0.130900 ms MarkObjects: 4.664200 ms  DeleteObjects: 0.151300 ms)
+Unloading 4501 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (50.9 KB). Loaded Objects now: 4960.
+Memory consumption went from 312.0 MB to 311.9 MB.
+Total: 28.652381 ms (FindLiveObjects: 0.694216 ms CreateObjectMapping: 0.488953 ms MarkObjects: 27.196339 ms  DeleteObjects: 0.270488 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 446100.685367 seconds.
-  path: Assets/sky5X/sky5X_light_settings/sky3_colorSettings.jpg
-  artifactKey: Guid(07c8cfc7f3c355e44bf90871d9eec625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sky5X/sky5X_light_settings/sky3_colorSettings.jpg using Guid(07c8cfc7f3c355e44bf90871d9eec625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfdeae884728d15e2b82131db8cd9db') in 0.110211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.421425 seconds.
-  path: Assets/sky5X/sky5X_skyboxes/sky5X3.mat
-  artifactKey: Guid(93d43b027dc267444af7412b8e607dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sky5X/sky5X_skyboxes/sky5X3.mat using Guid(93d43b027dc267444af7412b8e607dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9da1a9b8b2c8038f681228469b49618') in 0.160697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.040186 seconds.
-  path: Assets/sky5X/sky5X_textures/skyX51+z.png
-  artifactKey: Guid(5a88471d48adeb5439a6f1fb77fffb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sky5X/sky5X_textures/skyX51+z.png using Guid(5a88471d48adeb5439a6f1fb77fffb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38cd3dad54c134e1873706fc8b3c4d75') in 0.057828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/sky5X/sky5X_textures/skyX52+z.png
-  artifactKey: Guid(337833f88c399624fb07b195c10dc6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sky5X/sky5X_textures/skyX52+z.png using Guid(337833f88c399624fb07b195c10dc6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c615729bfd01ddf7f4566ad478d62a95') in 0.084918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/sky5X/sky5X_textures/skyX53-z.png
-  artifactKey: Guid(2f457ab648d52c3438926569eff3903b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sky5X/sky5X_textures/skyX53-z.png using Guid(2f457ab648d52c3438926569eff3903b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193f967b8c9941b6c06b79ae16fa1460') in 0.053503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/sky5X/sky5X_textures/skyX55-x.png
-  artifactKey: Guid(ee75a47af7dfc8c4e85e33e7aaa8ba60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sky5X/sky5X_textures/skyX55-x.png using Guid(ee75a47af7dfc8c4e85e33e7aaa8ba60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67380d5e4aff639ff5ff0cf0b0c6d12d') in 0.077010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/sky5X/sky5X_textures/skyX52+y.png
-  artifactKey: Guid(7b732c99b3c5a79469b9ae07d0032abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sky5X/sky5X_textures/skyX52+y.png using Guid(7b732c99b3c5a79469b9ae07d0032abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519faa8d274f50f9720fce81e5934011') in 0.026912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/sky5X/sky5X_textures/skyX54+y.png
-  artifactKey: Guid(7cb8be361ca1b7b4197f117ab121a7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sky5X/sky5X_textures/skyX54+y.png using Guid(7cb8be361ca1b7b4197f117ab121a7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f31372d713c30529d5ff6047ecfe05b') in 0.022847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.846175 seconds.
-  path: Assets/sky5X/sky5X_textures/Materials/skyX53+z.mat
-  artifactKey: Guid(93742cb4b24b747f6bbe0de85ad8b177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sky5X/sky5X_textures/Materials/skyX53+z.mat using Guid(93742cb4b24b747f6bbe0de85ad8b177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d3be3d09221efe2db7c8509a26363c') in 0.036060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.732499 seconds.
-  path: Assets/Materials/20645193_1275960812526693_3340865725999088454_o 拷貝.mat
-  artifactKey: Guid(94ee961ef5da64c529d77908fc2e21f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/20645193_1275960812526693_3340865725999088454_o 拷貝.mat using Guid(94ee961ef5da64c529d77908fc2e21f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b3811f51533b26095c678014ac2cfa') in 0.028202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Nobiax Free Hesco/meshes/Materials/_hesco_sanddefault.mat
-  artifactKey: Guid(18d10c2dea94bf649b9e4d92ad753427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nobiax Free Hesco/meshes/Materials/_hesco_sanddefault.mat using Guid(18d10c2dea94bf649b9e4d92ad753427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3656e775527848976f9d85365eea8f86') in 0.122963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Desktop_Bare Materials/Billboard.mat
-  artifactKey: Guid(efb2c5d763a36a74aaa201b540a995a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Desktop_Bare Materials/Billboard.mat using Guid(efb2c5d763a36a74aaa201b540a995a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ace51d6a880e606cd7aefc2499a2752') in 0.133858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Environment/Mountain Trees Pack/Trees/Materials/Bark_9.mat
-  artifactKey: Guid(ee1df41c6eeb258499305a9ae42bc574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/Mountain Trees Pack/Trees/Materials/Bark_9.mat using Guid(ee1df41c6eeb258499305a9ae42bc574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e43cbd09ff31305b474c828e94d4bf9') in 0.314716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Branches_0.mat
-  artifactKey: Guid(5c6bda52f548c164381f24c22067e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Branches_0.mat using Guid(5c6bda52f548c164381f24c22067e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accae977ab89a5c2a086bb5ffb71aaef') in 0.313828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/BasicBandit/Materials/BasicBandit_EyeMAt.mat
-  artifactKey: Guid(b473d2dbc3df47f4180f1e7647543b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BasicBandit/Materials/BasicBandit_EyeMAt.mat using Guid(b473d2dbc3df47f4180f1e7647543b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f9d624e1e0e52300ee4dd325b5341a') in 0.076384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Fall Materials/LOD2/Branches_0.mat
-  artifactKey: Guid(8389ff477418aa0498e0ff4eec0ed585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Fall Materials/LOD2/Branches_0.mat using Guid(8389ff477418aa0498e0ff4eec0ed585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e48f15d1397b0e269ba9f665273e2f5') in 0.296051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_0.mat
-  artifactKey: Guid(89bc4a04979629642988a379a429608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_0.mat using Guid(89bc4a04979629642988a379a429608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779333cf024b7b248f40c95c2ff1f71d') in 0.207087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Mobile_Grass_Package/Rough_Grass/Rough_Grass_Mobile_Cluster Materials/Billboard.mat
-  artifactKey: Guid(cc6669b77ca7cb645addd44590828bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mobile_Grass_Package/Rough_Grass/Rough_Grass_Mobile_Cluster Materials/Billboard.mat using Guid(cc6669b77ca7cb645addd44590828bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0682237fc461bd27607e5ed344e476c') in 0.055736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_Albedo.mat
-  artifactKey: Guid(8076f5fb1e4d4a542be9cd6a39d24026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_Albedo.mat using Guid(8076f5fb1e4d4a542be9cd6a39d24026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331236f133b0c24ab27290b74e752315') in 0.081560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Fall Materials/LOD1/Branches_0.mat
-  artifactKey: Guid(5d3c36a77b216f245808eb3abe877089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Fall Materials/LOD1/Branches_0.mat using Guid(5d3c36a77b216f245808eb3abe877089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fda651d92c6014b12f882f24cd6b4c0') in 0.036581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Branches_0.mat
-  artifactKey: Guid(87ace94fd72474c2e865c99271b98f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Branches_0.mat using Guid(87ace94fd72474c2e865c99271b98f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55476832b3a6eecd9dfdcff8eb380afe') in 0.019092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.471242 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Bare Materials/LOD0/Branches_0.mat
-  artifactKey: Guid(15026ad35c2c99e4bb93a9f9c7665ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Bare Materials/LOD0/Branches_0.mat using Guid(15026ad35c2c99e4bb93a9f9c7665ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b088815f9ac909b94e56fa7604f55c13') in 0.028262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Leaf_Map_Hero_Fall_2 Materials/LOD0/Branches_0.mat
-  artifactKey: Guid(b1c3e4e2667c1c0438094fbf0c6fc0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Leaf_Map_Hero_Fall_2 Materials/LOD0/Branches_0.mat using Guid(b1c3e4e2667c1c0438094fbf0c6fc0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83719731c9279b6162147f969883ba8e') in 0.207216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Desktop_Bare Materials/LOD1/Branches_0.mat
-  artifactKey: Guid(8761e071dc6ef424e8367fba3e27dc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Desktop_Bare Materials/LOD1/Branches_0.mat using Guid(8761e071dc6ef424e8367fba3e27dc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16eac99dafe24fea436cd845659bd0dc') in 0.028556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Environment/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD0/Branches_0.mat
-  artifactKey: Guid(5c6e36ca60e00c44d85ebfa1af88d2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD0/Branches_0.mat using Guid(5c6e36ca60e00c44d85ebfa1af88d2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c55d9ebdd30e71a569c1d33099a623') in 0.038505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Desktop_Bare Materials/LOD0/Branches_0.mat
-  artifactKey: Guid(6c21802299da3354cb7c7b869ab567cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Desktop_Bare Materials/LOD0/Branches_0.mat using Guid(6c21802299da3354cb7c7b869ab567cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3109a7435bb58bb27567571061b98f5f') in 0.031128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.105997 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Hero_Fall Materials/LOD1/Branches_1.mat
-  artifactKey: Guid(6874cb5e104cadf4bbac83d0b9ed8beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Hero_Fall Materials/LOD1/Branches_1.mat using Guid(6874cb5e104cadf4bbac83d0b9ed8beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523f58ff7d4f37d72859212ff5b5d39e') in 0.035346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Desktop Materials/LOD0/Branches_1.mat
-  artifactKey: Guid(cc73c036435920e42bd8ad6052856842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Desktop Materials/LOD0/Branches_1.mat using Guid(cc73c036435920e42bd8ad6052856842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f923d216bd859c397fdb7d1b8310ab5') in 0.031889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Hero Materials/LOD1/Branches_1.mat
-  artifactKey: Guid(ba709566b24b825428d80acdd72136dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Hero Materials/LOD1/Branches_1.mat using Guid(ba709566b24b825428d80acdd72136dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402cff6cfde33e1ea0a90051f87ddc86') in 0.034131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile Materials/LOD0/Branches_1.mat
-  artifactKey: Guid(10ac925e54c72274cb0a63d4fda0c94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile Materials/LOD0/Branches_1.mat using Guid(10ac925e54c72274cb0a63d4fda0c94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388a2304d56a9192532bd758d65b4434') in 0.131743 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_1.mat
-  artifactKey: Guid(57df284b8a7c87b4894ac5f9c86e0be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_1.mat using Guid(57df284b8a7c87b4894ac5f9c86e0be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c81b6f09779000419c2ab6e90507991') in 0.022527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Fall Materials/LOD2/Branches_1.mat
-  artifactKey: Guid(cd52eba552e2a6b4a908e01e7aaf7038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Fall Materials/LOD2/Branches_1.mat using Guid(cd52eba552e2a6b4a908e01e7aaf7038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facec267e1a470f8db80b48f93258a37') in 0.029781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop 1 Materials/LOD2/Branches_1.mat
-  artifactKey: Guid(8fe02a6ed21b938448fed78be4a284a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop 1 Materials/LOD2/Branches_1.mat using Guid(8fe02a6ed21b938448fed78be4a284a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6d000a997db7c75fc6bb8102b0f4c7') in 0.017719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Fall Materials/LOD0/Branches_1.mat
-  artifactKey: Guid(7d3dcdd2c4b8a9944820f0fcf6a04bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Fall Materials/LOD0/Branches_1.mat using Guid(7d3dcdd2c4b8a9944820f0fcf6a04bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff5eadf29f9b7270227b251ff70c7a6') in 0.033167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.048285 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Hero_Bare Materials/LOD2/Branches_1.mat
-  artifactKey: Guid(cec4259b39610e44084e6b987e2bef00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Hero_Bare Materials/LOD2/Branches_1.mat using Guid(cec4259b39610e44084e6b987e2bef00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf5786658cc2e218d89f9b3890e89df') in 0.035950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Jade Samurai - Mobile/Misc/DomeMat 1.mat
-  artifactKey: Guid(2c347c777adc19248a730b4ba7c7e2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jade Samurai - Mobile/Misc/DomeMat 1.mat using Guid(2c347c777adc19248a730b4ba7c7e2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d95e20140d86862f05a837b31c728e0') in 0.020383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/SamplesResources/AugmentationAssets/Materials/Astronaut/Drill.mat
-  artifactKey: Guid(75ef9db8d65dcfb40969937fa2f6ea8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/AugmentationAssets/Materials/Astronaut/Drill.mat using Guid(75ef9db8d65dcfb40969937fa2f6ea8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e7873bb957753f393d7f626fe0cb80') in 0.017905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Environment/Donkey/Texture/Donkey_Brown.mat
-  artifactKey: Guid(05195794348c4fe46a219f223e7a0295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/Donkey/Texture/Donkey_Brown.mat using Guid(05195794348c4fe46a219f223e7a0295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c5e9f5649de7c861b42d4e1bffc0f4') in 0.182538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Environment/Donkey/Texture/Donkey_skinny.mat
-  artifactKey: Guid(9168b8dc5a0be204eb27cb1b2c3ba07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/Donkey/Texture/Donkey_skinny.mat using Guid(9168b8dc5a0be204eb27cb1b2c3ba07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c980f03835932688ee6b44d5d803df') in 0.091965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Packages/com.unity.xr.arfoundation/Materials/DebugFace.mat
-  artifactKey: Guid(35bd980c8f2234e3d8b640e25a677d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arfoundation/Materials/DebugFace.mat using Guid(35bd980c8f2234e3d8b640e25a677d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f69ec0aa829a988c9ea40bbe5c639a1') in 0.052620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile Materials/LOD1/Branches_1.mat
-  artifactKey: Guid(b64d5d3c22ecf234095b881980bbf305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile Materials/LOD1/Branches_1.mat using Guid(b64d5d3c22ecf234095b881980bbf305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54412d046b5dca05f73e1658a656aa3b') in 0.032730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Ground textures pack/Dry ground/Dry ground pattern.mat
-  artifactKey: Guid(d805d830c4023774cb6259aca09f431e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Dry ground/Dry ground pattern.mat using Guid(d805d830c4023774cb6259aca09f431e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b9a6a895a52cfe902e3d2262d4f5b8') in 0.029759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop 1 Materials/LOD1/FacingLeaves_4.mat
-  artifactKey: Guid(43bddc66d1c82d242b7bbd6132a17fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop 1 Materials/LOD1/FacingLeaves_4.mat using Guid(43bddc66d1c82d242b7bbd6132a17fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19fc744b99cee10cf88bd0351217eae') in 0.417436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Bare Materials/LOD0/Fronds_2.mat
-  artifactKey: Guid(2e5b07b818d444846807970a473c19df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Bare Materials/LOD0/Fronds_2.mat using Guid(2e5b07b818d444846807970a473c19df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88653d9ea0626bf71245f645f419a41') in 0.303075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Fronds_2.mat
-  artifactKey: Guid(57225f817366f704fb9b710e3865030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Fronds_2.mat using Guid(57225f817366f704fb9b710e3865030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca0bf369419fbd0470b585927a06174') in 0.221285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Fronds_2.mat
-  artifactKey: Guid(654a2c1b911b36647b211a44a46e6d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Fronds_2.mat using Guid(654a2c1b911b36647b211a44a46e6d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a835151190fdbfb05c77bb18f9b79e9') in 0.034279 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Ground textures pack/Grass & dead leafs 01/Grass & dead leafs pattern 01.mat
-  artifactKey: Guid(893960384de673345a82517892b28bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Grass & dead leafs 01/Grass & dead leafs pattern 01.mat using Guid(893960384de673345a82517892b28bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30eaa48f02ae596c8b9157bd0bf09c8') in 0.137048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Hero_Fall Materials/LOD1/Fronds_2.mat
-  artifactKey: Guid(4cb1e959ce6391245a84290bab350042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Hero_Fall Materials/LOD1/Fronds_2.mat using Guid(4cb1e959ce6391245a84290bab350042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcbb37b6cb797557eb2fb2458e1b741') in 0.034427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop 1 Materials/LOD0/Fronds_2.mat
-  artifactKey: Guid(2c762a638b756a141b63c1f4ad0106cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop 1 Materials/LOD0/Fronds_2.mat using Guid(2c762a638b756a141b63c1f4ad0106cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e96bcf67d25639da07e9ac72cd8299') in 0.331045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Ground textures pack/Grass 04/Grass pattern 04.mat
-  artifactKey: Guid(059cceb0ba6e50741bfe6ec2c755d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Grass 04/Grass pattern 04.mat using Guid(059cceb0ba6e50741bfe6ec2c755d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce64a896b4de6433c584d918251b3c30') in 0.102937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Environment/ADG_Textures/ground_vol1/ground4/ground4.mat
-  artifactKey: Guid(58621eb9da53bb648ab64c4982c9d407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/ADG_Textures/ground_vol1/ground4/ground4.mat using Guid(58621eb9da53bb648ab64c4982c9d407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8e81f8cc4c2637c6cb8b77eaf97292') in 0.187909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop 1 Materials/LOD0/Fronds_2.mat
-  artifactKey: Guid(29c4ebc802e8c61409a44d55c8726d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop 1 Materials/LOD0/Fronds_2.mat using Guid(29c4ebc802e8c61409a44d55c8726d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4219112fb3f0442a1538af9b3227ad6') in 0.036270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop 1 Materials/LOD2/FacingLeaves_4.mat
-  artifactKey: Guid(c1015cd31ca5691479d6fe34a92424bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop 1 Materials/LOD2/FacingLeaves_4.mat using Guid(c1015cd31ca5691479d6fe34a92424bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07be4adbc13963811281df0aaa4b16ed') in 0.040097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Environment/ADG_Textures/ground_vol1/ground9/ground9.mat
-  artifactKey: Guid(808ad643de188e240b57498ca61b98a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/ADG_Textures/ground_vol1/ground9/ground9.mat using Guid(808ad643de188e240b57498ca61b98a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a54fc933a217ae70c32b171edf1f69') in 0.208419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.040561 seconds.
-  path: Assets/Environment/ADG_Textures/ground_vol1/ground12/ground12.mat
-  artifactKey: Guid(43f38029a9368894a9fb4dd19ce0bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/ADG_Textures/ground_vol1/ground12/ground12.mat using Guid(43f38029a9368894a9fb4dd19ce0bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417885f1c4af72b58e8290852468eaec') in 0.169409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Materials/Leaf_Desktop_1_pPlane1Mat.mat
-  artifactKey: Guid(efb054ef9843cdb458c3ee3886b6b061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Materials/Leaf_Desktop_1_pPlane1Mat.mat using Guid(efb054ef9843cdb458c3ee3886b6b061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c99110226851120d082e9948f99663') in 0.019523 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Leaf_Map_Mobile_1 Materials/LOD1/Leaves_0.mat
-  artifactKey: Guid(e395af75b4cd1b84c9c63e5705dc7725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Leaf_Map_Mobile_1 Materials/LOD1/Leaves_0.mat using Guid(e395af75b4cd1b84c9c63e5705dc7725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb968a4ba832c6ffeafa242b214373f') in 0.340586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Leaf_Map_Mobile_Fall_1 Materials/LOD1/Leaves_0.mat
-  artifactKey: Guid(539036f3a1e24044bba6350897dda7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Leaf_Map_Mobile_Fall_1 Materials/LOD1/Leaves_0.mat using Guid(539036f3a1e24044bba6350897dda7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278a81624b1c30237c2f521cf0d89924') in 0.032257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Leaf_Map_Mobile_Bare_1 Materials/LOD1/Leaves_0.mat
-  artifactKey: Guid(d2c312a1431a9db489c6353e6c8a4e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Leaf_Map_Mobile_Bare_1 Materials/LOD1/Leaves_0.mat using Guid(d2c312a1431a9db489c6353e6c8a4e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f84c2f84221b56f95cb5000afb9d43') in 0.045433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Leaf_Map_Mobile_Bare_1 Materials/LOD0/Leaves_0.mat
-  artifactKey: Guid(bd8a1577bc984d942aeb8ca7940b055c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Leaf_Map_Mobile_Bare_1 Materials/LOD0/Leaves_0.mat using Guid(bd8a1577bc984d942aeb8ca7940b055c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331e98c13c303da40510fbd86d7527e6') in 0.040839 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.501609 seconds.
-  path: Assets/Mobile_Grass_Package/Backyard_Grass/Backyard_Grass_Mobile_Cluster Materials/LOD1/Leaves_0.mat
-  artifactKey: Guid(097cfee7a6ba3d64f8ef6e4399531180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mobile_Grass_Package/Backyard_Grass/Backyard_Grass_Mobile_Cluster Materials/LOD1/Leaves_0.mat using Guid(097cfee7a6ba3d64f8ef6e4399531180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b0bffabc6e856fa925ec838cabfc64') in 0.024958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Leaves_1.mat
-  artifactKey: Guid(30bab4dd2e3ad4fb28f95cd306476be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Leaves_1.mat using Guid(30bab4dd2e3ad4fb28f95cd306476be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9cc5232568aa4ae4cd3083f7aae19d') in 0.038495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Environment/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD2/Leaves_1.mat
-  artifactKey: Guid(e31e34fb48abf2145b94a1e8eae61b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/Free_SpeedTrees/Broadleaf_Mobile Materials/LOD2/Leaves_1.mat using Guid(e31e34fb48abf2145b94a1e8eae61b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131a7b05c615f5da779b203cc43a758a') in 0.103378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Stencil/Materials/Broadleaf_Mobile Materials/LOD2/Leaves_2.mat
-  artifactKey: Guid(71fff2fd2194f444e963e5166697153d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stencil/Materials/Broadleaf_Mobile Materials/LOD2/Leaves_2.mat using Guid(71fff2fd2194f444e963e5166697153d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b551e228d271c47cbfb9d2850e3dcdb') in 0.170069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Hero Materials/LOD0/Leaves_3.mat
-  artifactKey: Guid(eb96015ccadd91142b1ab492ac6a126b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Hero Materials/LOD0/Leaves_3.mat using Guid(eb96015ccadd91142b1ab492ac6a126b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4db60d2207a118992bb1d439627646') in 0.058132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Hero_Bare Materials/LOD1/Leaves_3.mat
-  artifactKey: Guid(8ac5bdd4df2d3b746a7182ecc812c6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Hero_Bare Materials/LOD1/Leaves_3.mat using Guid(8ac5bdd4df2d3b746a7182ecc812c6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c36c50efb860de02c27eb0fb6ea83a') in 0.062257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Leaves_3.mat
-  artifactKey: Guid(19d7ece9e3def3745a0f6e75d984fdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Leaves_3.mat using Guid(19d7ece9e3def3745a0f6e75d984fdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14b030949dad328febebc3ef0052386') in 0.037194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.231292 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Hero Materials/LOD2/Leaves_3.mat
-  artifactKey: Guid(dbe33dffd44d3b540beaba63ece10252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Hero Materials/LOD2/Leaves_3.mat using Guid(dbe33dffd44d3b540beaba63ece10252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17b1ead22e77cebbe4fa877c7953d04') in 0.052692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile Materials/LOD2/Leaves_3.mat
-  artifactKey: Guid(61da286175f176546b0384ca7a1e5297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile Materials/LOD2/Leaves_3.mat using Guid(61da286175f176546b0384ca7a1e5297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385abceb09ca77e20fecf2f8e3b6b6dd') in 0.038106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile Materials/LOD1/Leaves_3.mat
-  artifactKey: Guid(ecfaa83685a2bbe419eacce43b267f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile Materials/LOD1/Leaves_3.mat using Guid(ecfaa83685a2bbe419eacce43b267f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e657204c67c1f89f0e5c6d42cbb679c') in 0.028914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prototype Materials/Materials/M_Marble.mat
-  artifactKey: Guid(f400e4927d0f13e419b66dc50f8d6ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Materials/Materials/M_Marble.mat using Guid(f400e4927d0f13e419b66dc50f8d6ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cf953a8d182b6554a4c951de80cb94') in 0.225805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Environment/Rocks and Boulders 2/Rocks/Source/Materials/Unity 5/Rock6.mat
-  artifactKey: Guid(a757083ce9ed07240a5511e1c9d6e846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/Rocks and Boulders 2/Rocks/Source/Materials/Unity 5/Rock6.mat using Guid(a757083ce9ed07240a5511e1c9d6e846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca309d3e5726ac8654f9b9b5df79412') in 0.473706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Environment/Mountain/snow_mountain/Materials/Snow_mountain.mat
-  artifactKey: Guid(6ef5919d0d43fcd45a5aba5ffb52c955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/Mountain/snow_mountain/Materials/Snow_mountain.mat using Guid(6ef5919d0d43fcd45a5aba5ffb52c955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950dd0b5aa1bea5f4f5d37fc4f29888e') in 0.079287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Gate/torii top.mat
-  artifactKey: Guid(1c142c97a7b1fd44e83bce4e798bdea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gate/torii top.mat using Guid(1c142c97a7b1fd44e83bce4e798bdea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a210690cea25906a2b351c0e1048a55') in 0.023535 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Environment/TL_Grass_02/Material/TL_Grass_02.mat
-  artifactKey: Guid(b13c26d4e3e248f4280402ff1eeace8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/TL_Grass_02/Material/TL_Grass_02.mat using Guid(b13c26d4e3e248f4280402ff1eeace8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd88f0d564cdadbd28de133e1f54be6b') in 0.045333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicDaytime.mat
-  artifactKey: Guid(52b7d70b1de7c4ce09662b77c14d9fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicDaytime.mat using Guid(52b7d70b1de7c4ce09662b77c14d9fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10dcd2e48e247db93073855e16a1aa0') in 0.044458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Dissolve Edge by Moonflower Carnivore/Materials/mat_DissolveEdge_Zwrite.mat
-  artifactKey: Guid(592f20914d6e09a4bae255d94da3d68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dissolve Edge by Moonflower Carnivore/Materials/mat_DissolveEdge_Zwrite.mat using Guid(592f20914d6e09a4bae255d94da3d68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1634acf1e42e072db27c1526544402d7') in 0.078011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/DragonTheUsurper/Materials/Stage.mat
-  artifactKey: Guid(633977755be42e54dadd3a4a79df57d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DragonTheUsurper/Materials/Stage.mat using Guid(633977755be42e54dadd3a4a79df57d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40885a2986855ffe3bc9de7e32036485') in 0.193828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Environment/meadow_assets/Foliage_Ambient-Occlusion/Materials/veg_atlas_mat.mat
-  artifactKey: Guid(d786f6709d0515547bdce57774aa705d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/meadow_assets/Foliage_Ambient-Occlusion/Materials/veg_atlas_mat.mat using Guid(d786f6709d0515547bdce57774aa705d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2848833b5f0597c9e48c7d3c85dab5') in 0.101243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterDefault.mat
-  artifactKey: Guid(30abebfd9bf1c49d8a2d26e61e66bc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterDefault.mat using Guid(30abebfd9bf1c49d8a2d26e61e66bc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a61d8452ccd2243921f79685fc6c124') in 0.094276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicNighttime.mat
-  artifactKey: Guid(c55afdc4a8a3b4890b07cc7d176510bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicNighttime.mat using Guid(c55afdc4a8a3b4890b07cc7d176510bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b34d829af37c4bb3ed89c60d86c0a07') in 0.022679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Prototype Materials/Materials/M_Dirt.mat
-  artifactKey: Guid(6ca372a1595346445a47b2467eacb755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Materials/Materials/M_Dirt.mat using Guid(6ca372a1595346445a47b2467eacb755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e50cb2ac4b34f42385ed8be78d03209') in 0.223416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Prototype Materials/Materials/M_Bricks.mat
-  artifactKey: Guid(c41cc5eeb52bc144c8ad409a0aafc24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Materials/Materials/M_Bricks.mat using Guid(c41cc5eeb52bc144c8ad409a0aafc24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c98fbc36b636df646bc4771640ac885') in 0.087354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Simple.mat
-  artifactKey: Guid(656fde119942645aa8e062e04c119aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Simple.mat using Guid(656fde119942645aa8e062e04c119aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b4299b0c0574e1c24b809a6964e183') in 0.026874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Bare Materials/LOD2/Leaves_3.mat
-  artifactKey: Guid(27f4bba9fb451834ca52ebe98944e75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Bare Materials/LOD2/Leaves_3.mat using Guid(27f4bba9fb451834ca52ebe98944e75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a57183692e4fb39436a794d79784048') in 0.033500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Environment/Rocks and Boulders 2/Rocks/Source/Materials/Unity 5/Rock5.mat
-  artifactKey: Guid(b5df0d0c5fdf17849add10dec913d0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/Rocks and Boulders 2/Rocks/Source/Materials/Unity 5/Rock5.mat using Guid(b5df0d0c5fdf17849add10dec913d0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebbead501aec9207a4af4bb713df01d') in 0.198472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Stencil/Window.mat
-  artifactKey: Guid(4b9cc808b5a79a8429ba1170d3103642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stencil/Window.mat using Guid(4b9cc808b5a79a8429ba1170d3103642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d48092979a06a034116aa0987f1f59') in 0.017906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Stencil/Window 2.mat
-  artifactKey: Guid(919cd0443eaf12f4dab57e8a93b16fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stencil/Window 2.mat using Guid(919cd0443eaf12f4dab57e8a93b16fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f4cd75a74212cf3a20e60ffb267003') in 0.016278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.085293 seconds.
-  path: Assets/ShipCargo/Materials/Wood.mat
-  artifactKey: Guid(adb2ade1967cb214fabc417d2db013f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShipCargo/Materials/Wood.mat using Guid(adb2ade1967cb214fabc417d2db013f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee137eb531e4e07c46dad8574952efc7') in 0.129608 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 41625.059537 seconds.
+  path: Assets/Environment/Waterfall/Waterfall_Smoke.mat
+  artifactKey: Guid(4e1e217e5aae39a45b461a5ff0a34fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Waterfall/Waterfall_Smoke.mat using Guid(4e1e217e5aae39a45b461a5ff0a34fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7404c6ca049f2f8478a0db80524a96b') in 0.992190 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 54 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (22.9 KB). Loaded Objects now: 5002.
+Memory consumption went from 230.5 MB to 230.5 MB.
+Total: 16.976398 ms (FindLiveObjects: 0.533166 ms CreateObjectMapping: 0.369399 ms MarkObjects: 16.023889 ms  DeleteObjects: 0.048588 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[usbmuxd] Attached: 5 00008120-001444C02140C01E
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 30.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 54 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (22.9 KB). Loaded Objects now: 5002.
+Memory consumption went from 230.5 MB to 230.5 MB.
+Total: 44.811785 ms (FindLiveObjects: 1.059403 ms CreateObjectMapping: 0.336315 ms MarkObjects: 43.299550 ms  DeleteObjects: 0.115123 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

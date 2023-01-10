@@ -1,23 +1,30 @@
+Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6 (Build 21G115)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'zh' Physical Memory: 16004 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Github/PortalxMountainTrip/PortalxMountainTrip
+/Users/nctutwt/Documents/GitHub/PortalxMountainTrip/PortalxMountainTrip
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61737
-Successfully changed project path to: C:/Github/PortalxMountainTrip/PortalxMountainTrip
-C:/Github/PortalxMountainTrip/PortalxMountainTrip
+49610
+Successfully changed project path to: /Users/nctutwt/Documents/GitHub/PortalxMountainTrip/PortalxMountainTrip
+/Users/nctutwt/Documents/GitHub/PortalxMountainTrip/PortalxMountainTrip
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,128 +54,319 @@ C:/Github/PortalxMountainTrip/PortalxMountainTrip
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 85.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 263.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Github/PortalxMountainTrip/PortalxMountainTrip/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/nctutwt/Documents/GitHub/PortalxMountainTrip/PortalxMountainTrip/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
-    Vendor:   NVIDIA
-    VRAM:     6023 MB
-    Driver:   31.0.15.1740
+Color LCD preferred device: Intel(R) Iris(TM) Graphics 540 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Graphics 540 (low power)
+Using device Intel(R) Iris(TM) Graphics 540 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 540
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.003550 seconds.
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 77.35 ms, found 3 plugins.
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.003359 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 233.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.474 seconds
+- Completed reload, in  2.330 seconds
 Domain Reload Profiling:
-	ReloadAssembly (474ms)
-		BeginReloadAssembly (52ms)
+	ReloadAssembly (2331ms)
+		BeginReloadAssembly (584ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (351ms)
-			LoadAssemblies (51ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1469ms)
+			LoadAssemblies (614ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (71ms)
+			SetupTypeCache (311ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (226ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (939ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (52ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (65ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				InitializePlatformSupportModulesInManaged (320ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (233ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003386 seconds.
-Android Extension - Scanning For ADB Devices 630 ms
+Registered in 0.003541 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Github\PortalxMountainTrip\PortalxMountainTrip\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Github\PortalxMountainTrip\PortalxMountainTrip\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 71.92 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image /Users/nctutwt/Documents/GitHub/PortalxMountainTrip/PortalxMountainTrip/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nctutwt/Documents/GitHub/PortalxMountainTrip/PortalxMountainTrip/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 261.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
+- Completed reload, in  4.241 seconds
 Domain Reload Profiling:
-	ReloadAssembly (826ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (4244ms)
+		BeginReloadAssembly (250ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (17ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (694ms)
-			LoadAssemblies (51ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (3755ms)
+			LoadAssemblies (626ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (152ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (418ms)
+			SetupTypeCache (684ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (237ms)
+			SetupLoadedEditorAssemblies (1961ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (72ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (159ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (82ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (261ms)
+				BeforeProcessingInitializeOnLoad (230ms)
+				ProcessInitializeOnLoadAttributes (830ms)
+				ProcessInitializeOnLoadMethodAttributes (539ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (58ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4515 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (61.9 KB). Loaded Objects now: 4971.
-Memory consumption went from 174.8 MB to 174.8 MB.
-Total: 4.899300 ms (FindLiveObjects: 0.242700 ms CreateObjectMapping: 0.119800 ms MarkObjects: 4.409500 ms  DeleteObjects: 0.126200 ms)
+Unloading 4501 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (49.8 KB). Loaded Objects now: 4960.
+Memory consumption went from 312.6 MB to 312.5 MB.
+Total: 15.793712 ms (FindLiveObjects: 0.552812 ms CreateObjectMapping: 0.437801 ms MarkObjects: 14.370335 ms  DeleteObjects: 0.430925 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 450112.889884 seconds.
-  path: Assets/main 1.unity
-  artifactKey: Guid(54fdc4ac621d84d9e83e6bdfe7642361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/main 1.unity using Guid(54fdc4ac621d84d9e83e6bdfe7642361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b595e0486260012208e060d17c867d3') in 0.009125 seconds 
+  Time since last request: 3145.495334 seconds.
+  path: Assets/Stencil/Prefab/Conifer_Desktop 1.prefab
+  artifactKey: Guid(9e8a4a27337db8d4bab2a8cfbd19b646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stencil/Prefab/Conifer_Desktop 1.prefab using Guid(9e8a4a27337db8d4bab2a8cfbd19b646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16c4b1553a33c135c8d4365f86113c9') in 7.619245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001447 seconds.
+  path: Assets/Stencil/Prefab/Broadleaf_Mobile 1.prefab
+  artifactKey: Guid(5d78a22c64b6a154d93d0d5afb0fd856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stencil/Prefab/Broadleaf_Mobile 1.prefab using Guid(5d78a22c64b6a154d93d0d5afb0fd856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0903ab62cc87c244a5e5d268b74bed2f') in 1.103535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Stencil/Prefab/Thick_Grass_Mobile_1.prefab
+  artifactKey: Guid(52e875757a355474da9b7c662353c4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stencil/Prefab/Thick_Grass_Mobile_1.prefab using Guid(52e875757a355474da9b7c662353c4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57dccd6205f22c96e26bdc7ac195711') in 1.047326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.351842 seconds.
+  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile Materials/LOD2/Branches_1.mat
+  artifactKey: Guid(5ab6776760bd89347b7d80b53c637ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile Materials/LOD2/Branches_1.mat using Guid(5ab6776760bd89347b7d80b53c637ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce40ce28d8fba22feb37509f9032063b') in 0.747308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.391840 seconds.
+  path: Assets/Weeping_Willow/Weeping_Willow/WeepingWillowBark_Normal.tga
+  artifactKey: Guid(046304925ad57134ea3aa170e12d5fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weeping_Willow/Weeping_Willow/WeepingWillowBark_Normal.tga using Guid(046304925ad57134ea3aa170e12d5fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2a32d966f75ecf7115457e40e1c008') in 1.766295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.725376 seconds.
+  path: Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Atlas_Normal.tga
+  artifactKey: Guid(3de3edc8b4283234894897fd97016969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weeping_Willow/Weeping_Willow/Weeping_Willow_Mobile_Atlas_Normal.tga using Guid(3de3edc8b4283234894897fd97016969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2347696d6b92b63e6a9e5b3e334fa23') in 0.072001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.988092 seconds.
+  path: Assets/Stencil/Materials/Broadleaf_Mobile Materials/LOD1/Branches_1.mat
+  artifactKey: Guid(3eb729bc520f66a40a865c103c565e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stencil/Materials/Broadleaf_Mobile Materials/LOD1/Branches_1.mat using Guid(3eb729bc520f66a40a865c103c565e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111388b221007b02a4cd024040d8b361') in 0.054964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000677 seconds.
+  path: Assets/Stencil/Materials/Broadleaf_Mobile Materials/LOD1/Leaves_2.mat
+  artifactKey: Guid(9bdc0f07f7b7d5a4e8cb3881a2d6e938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stencil/Materials/Broadleaf_Mobile Materials/LOD1/Leaves_2.mat using Guid(9bdc0f07f7b7d5a4e8cb3881a2d6e938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c64dd16a26928b9f14a0664ab762d7') in 0.079654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.290291 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark_Normal.tga
+  artifactKey: Guid(34f07406286974e4ca236867d8d58b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark_Normal.tga using Guid(34f07406286974e4ca236867d8d58b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79133fe372a16c97f6889ffa05d092b') in 0.045830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.164142 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Normal.tga
+  artifactKey: Guid(be053ea3235ccb64a889bf0b15c2764b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Normal.tga using Guid(be053ea3235ccb64a889bf0b15c2764b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfc7a64535d3b7ca9e52fa6ffa48a61') in 0.068723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.702906 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop 1 Materials/LOD1/Branches_1.mat
+  artifactKey: Guid(26acc09b9648d3e4f9ca6c1a05495200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop 1 Materials/LOD1/Branches_1.mat using Guid(26acc09b9648d3e4f9ca6c1a05495200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb4b1146214d7f25ba9861af9cc269b') in 0.115693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop 1 Materials/LOD1/Fronds_2.mat
+  artifactKey: Guid(680f45f2e207cf640b370d97e6915519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop 1 Materials/LOD1/Fronds_2.mat using Guid(680f45f2e207cf640b370d97e6915519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff7730278db1419c293ada20deed886') in 0.107688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.173039 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop 1 Materials/LOD2/Branches_1.mat
+  artifactKey: Guid(9dcdc4a5d1d8bbe469e5eba1a5a90f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop 1 Materials/LOD2/Branches_1.mat using Guid(9dcdc4a5d1d8bbe469e5eba1a5a90f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e976c3ccbd59de3a1058019b3ebf4b') in 0.078485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.444300 seconds.
+  path: Assets/Stencil/Materials/Broadleaf_Mobile Materials/LOD0/Branches_1.mat
+  artifactKey: Guid(d5b89d24405a54840a9ce2e30e87ff13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stencil/Materials/Broadleaf_Mobile Materials/LOD0/Branches_1.mat using Guid(d5b89d24405a54840a9ce2e30e87ff13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1a66cef7c55a817016d7a115787d92') in 0.065281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Stencil/Materials/Broadleaf_Mobile Materials/LOD0/Leaves_1.mat
+  artifactKey: Guid(a940b48d553d9c74f9ca0a3b4cf74336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stencil/Materials/Broadleaf_Mobile Materials/LOD0/Leaves_1.mat using Guid(a940b48d553d9c74f9ca0a3b4cf74336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29dea31917d7be178040da65e5fdf696') in 0.101490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.268156 seconds.
+  path: Assets/Stencil/Materials/Broadleaf_Mobile Materials/LOD2/Branches_1.mat
+  artifactKey: Guid(fd3c1d3e194469348a4d96225e3f797b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stencil/Materials/Broadleaf_Mobile Materials/LOD2/Branches_1.mat using Guid(fd3c1d3e194469348a4d96225e3f797b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd63ea820859a8d8f111e5ea58128c3') in 0.063036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Stencil/Materials/Broadleaf_Mobile Materials/LOD2/Leaves_2.mat
+  artifactKey: Guid(71fff2fd2194f444e963e5166697153d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stencil/Materials/Broadleaf_Mobile Materials/LOD2/Leaves_2.mat using Guid(71fff2fd2194f444e963e5166697153d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc8231c1f01b82bc9db1d52d11725dc') in 0.091493 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006977 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/nctutwt/Documents/GitHub/PortalxMountainTrip/PortalxMountainTrip/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nctutwt/Documents/GitHub/PortalxMountainTrip/PortalxMountainTrip/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.631 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2633ms)
+		BeginReloadAssembly (598ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (238ms)
+		EndReloadAssembly (1862ms)
+			LoadAssemblies (485ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (547ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (804ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (376ms)
+				ProcessInitializeOnLoadMethodAttributes (203ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4463 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (23.1 KB). Loaded Objects now: 5009.
+Memory consumption went from 328.6 MB to 328.6 MB.
+Total: 11.701067 ms (FindLiveObjects: 0.556219 ms CreateObjectMapping: 0.545166 ms MarkObjects: 10.528250 ms  DeleteObjects: 0.070031 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 961.374742 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX52-z.png
+  artifactKey: Guid(eb149b2caa0efbc46806952a3ab0862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX52-z.png using Guid(eb149b2caa0efbc46806952a3ab0862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d71ab776b49028a1d14d8fc9e05ea68') in 3.191520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX52+x.png
+  artifactKey: Guid(085a260b2d99bd54d8a8f7587c6cdd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX52+x.png using Guid(085a260b2d99bd54d8a8f7587c6cdd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40af7dc83f03a1969aecc369d1f68f68') in 0.271742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX53+z.png
+  artifactKey: Guid(1b4e6cc33563f5a43bcb38d0b0a6c80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX53+z.png using Guid(1b4e6cc33563f5a43bcb38d0b0a6c80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b283a7452b283b2d84f17999398b03a4') in 0.064534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX53+y.png
+  artifactKey: Guid(9c15b007bc3e6a34f843295e48f9b10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX53+y.png using Guid(9c15b007bc3e6a34f843295e48f9b10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a6f722717443c11da3df73d8389b68') in 0.134219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX52-x.png
+  artifactKey: Guid(f21555550245a7d40a2fdc7cabed71be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX52-x.png using Guid(f21555550245a7d40a2fdc7cabed71be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf22ee6a3023de460e3f10ac66a16fb') in 0.061419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/sky5X/sky5X_textures/skyX53-y.png
+  artifactKey: Guid(b7cd9fbb5ae5e7a4bad1091bd6724b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky5X/sky5X_textures/skyX53-y.png using Guid(b7cd9fbb5ae5e7a4bad1091bd6724b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119b498dec9855fd0ea89f9352655c05') in 0.112464 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
